@@ -1,93 +1,61 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
-import Navbar from "@/components/layout/Navbar";
+import Button from "@/components/common/Button";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen overflow-hidden bg-[#0D0A08]">
-      <Navbar/>
+    <section className="relative h-screen overflow-hidden">
+
       {/* Background Image */}
-      <Image
-        src="/images/hero/family-hero.jpg"
-        alt="JL Jewellers"
-        fill
-        priority
-        className="object-cover object-right
-lg:object-center"
+      <motion.div
+        initial={{ scale: 1.1 }}
+        animate={{ scale: 1 }}
+        transition={{ duration: 2 }}
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: "url('/images/hero/family.jpg')",
+        }}
       />
 
-      {/* Luxury Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/45 to-transparent" />
+      {/* Luxury Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/45 to-black/20" />
 
       {/* Content */}
-      <motion.div
-  className="relative z-10 flex h-full items-center"
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{ duration: 1.2 }}
->
-        <div className="mx-auto flex h-full w-full max-w-7xl items-center px-6 sm:px-8 lg:px-12 xl:px-16">
-          <div className="max-w-xl">
-            <motion.p
-  initial={{ opacity: 0, y: 25 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8, delay: 0.2 }}
-  className="mb-5 uppercase tracking-[0.35em] text-xs text-[#C6A56B]"
->
-              Timeless Beauty. Precious Memories.
-            </motion.p>
+      <div className="relative z-10 h-full flex items-center">
 
-            <motion.h1
-  initial={{ opacity: 0, y: 40 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 0.4 }}className="
-font-light
-text-white
-leading-[0.9]
-tracking-[-0.03em]
-text-5xl
-sm:text-6xl
-lg:text-7xl
-xl:text-[88px]
-">
-              Crafting
-              <br />
-              Emotions,
-              <br />
-              <span className="text-[#D8B26E]">
-                Since 1998
-              </span>
-            </motion.h1>
+        <div className="max-w-7xl mx-auto px-8 w-full">
 
-             <motion.p
-  initial={{ opacity: 0, y: 30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.9, delay: 0.7 }} className="
-mt-8
-max-w-lg
-text-base
-leading-8
-text-white/75
-lg:text-lg
-">
-              Every handcrafted masterpiece celebrates your life's most precious
-              milestones with timeless elegance.
-            </motion.p>
+          <p className="uppercase tracking-[8px] text-[#C8A96A] text-sm mb-6">
+            TIMELESS BEAUTY. PRECIOUS MEMORIES.
+          </p>
 
-            <motion.button
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8, delay: 1 }}
-  whileHover={{ scale: 1.03 }}
-  whileTap={{ scale: 0.98 }}className="mt-10 rounded-none border border-[#B8914F] px-10 py-5 uppercase
-tracking-[0.25em] text-sm tracking-wider text-[#E8D4A8] transition-all duration-500 hover:bg-[#B8914F] hover:text-black">
-              Explore Collections
-            </motion.button>
+          <h1 className="font-heading text-white text-6xl md:text-8xl leading-[0.92] max-w-3xl">
+            Crafting
+            <br />
+            Emotions,
+            <br />
+            <span className="text-[#C8A96A]">
+              Since 1998
+            </span>
+          </h1>
+
+          <p className="text-white/80 text-lg leading-8 mt-8 max-w-xl">
+            Every piece we create celebrates the most beautiful
+            moments of your life, transforming jewellery into
+            treasured family memories.
+          </p>
+
+          <div className="mt-12">
+            <Button href="#">
+              Explore Collections →
+            </Button>
           </div>
+
         </div>
-      </motion.div>
+
+      </div>
+
     </section>
   );
 }
