@@ -227,7 +227,7 @@ diamond: {
   products: [
     {
   name: "Temple Diamond Haram",
-  image: "/images/collections/diamond/temple-haram.jpg",
+  image: "/images/collections/diamond/temple_haram.jpg",
   metal: "18K Yellow Gold",
   stone: "Round Brilliant Diamonds",
   weight: "3.10 ct",
