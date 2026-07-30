@@ -55,6 +55,7 @@ export default function BridalIntro() {
               src="/images/collections/bridal/bridal-intro.jpg"
               alt="Bridal Jewellery"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
             />
           </div>

@@ -12,6 +12,7 @@ export default function StatementHero() {
         src="/images/collections/statement/hero.jpg"
         alt="Statement Collection"
         fill
+        sizes="(max-width: 768px) 100vw, 50vw"
         priority
         className="object-cover"
       />

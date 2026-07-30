@@ -59,6 +59,7 @@ export default function EverydayIntro() {
               src="/images/collections/everyday/hero.jpg"
               alt="Everyday Elegance"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
             />
 

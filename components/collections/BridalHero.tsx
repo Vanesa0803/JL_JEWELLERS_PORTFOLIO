@@ -14,6 +14,7 @@ export default function BridalHero() {
         src="/images/collections/bridal/bridal-intro.jpg"
         alt="Bridal Collection"
         fill
+        sizes="(max-width: 768px) 100vw, 50vw"
         priority
         className="object-cover"
       />

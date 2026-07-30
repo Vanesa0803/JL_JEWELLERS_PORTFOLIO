@@ -14,11 +14,13 @@ export default function Home() {
    <>
   <Navbar />
   <Hero />
-  <StorySection />
-  <QuoteBanner />
   <CollectionsSection />
-  <CraftsmanshipSection/>
+  <QuoteBanner />
   <JewelleryCarousel/>
+  <StorySection />
+  
+  <CraftsmanshipSection/>
+  
   <WhyChooseSection/>
   <TimelineSection/>
   <Footer/>

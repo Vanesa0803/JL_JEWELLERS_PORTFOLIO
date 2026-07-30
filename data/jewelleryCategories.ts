@@ -14,18 +14,18 @@ export const jewelleryCategories = [
     href: "/categories/necklaces",
   },
   {
-    title: "Earrings",
+    title: "Jhumkas",
     description:
-      "Timeless earrings blending sophistication with contemporary elegance.",
-    image: "/images/categories/earrings.jpg",
-    href: "/categories/earrings",
+      "Elegant handcrafted jhumkas that blend tradition with sophistication.",
+    image: "/images/categories/jhumkas.jpg",
+    href: "/categories/jhumkas",
   },
   {
     title: "Bracelets",
     description:
       "Graceful bracelets handcrafted for every celebration.",
-    image: "/images/categories/bracelets.jpg",
-    href: "/categories/bracelets",
+    image: "/images/categories/bracelet.jpg",
+    href: "/categories/bracelet",
   },
   {
     title: "Bangles",
@@ -35,10 +35,41 @@ export const jewelleryCategories = [
     href: "/categories/bangles",
   },
   {
-    title: "Pendants",
+    title: "Anklets",
     description:
-      "Meaningful pendants designed to tell your story beautifully.",
-    image: "/images/categories/pendants.jpg",
-    href: "/categories/pendants",
+      "Graceful anklets crafted to add timeless elegance to every step.",
+    image: "/images/categories/anklets.jpg",
+    href: "/categories/anklets",
   },
+
+  {
+    title: "Kamarbandh",
+    description:
+      "Gold-plated artificial beaded lakshmi mata temple design kamarbandh waist chain",
+    image: "/images/categories/kamarbandh.jpg",
+    href: "/categories/kamarbandh",
+  },
+
+  {
+    title: "Vanki (Armband)",
+    description:
+      "This exquisite armlet wraps the arm in gold tendrils",
+    image: "/images/categories/vanki.jpg",
+    href: "/categories/vanki",
+  },
+
+  {
+  title: "Temple Jewellery",
+  image: "/images/categories/temple.jpg",
+  description:"Timeless temple-inspired masterpieces crafted with divine elegance.",
+  href: "/categories/vanki",
+},
+{
+  title: "Kasu Mala",
+  image: "/images/categories/kasu.jpg",
+  description:"Classic coin necklaces celebrating South India's rich cultural legacy.",
+  href: "/categories/vanki",
+},
+
+
 ];

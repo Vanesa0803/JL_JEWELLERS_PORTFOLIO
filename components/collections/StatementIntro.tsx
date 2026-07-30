@@ -53,6 +53,7 @@ export default function StatementIntro() {
               src="/images/collections/statement/hero.jpg"
               alt="Statement Collection"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
             />
 

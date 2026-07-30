@@ -57,7 +57,7 @@ details:[
 products: [
   {
     name: "Royal Heritage Necklace",
-    image: "/images/collections/bridal/necklace.jpg",
+    image: "/images/collections/bridal/royal.jpg",
     metal: "22K Hallmarked Gold",
     stone: "Polki Diamonds",
     description:
@@ -65,49 +65,118 @@ products: [
   },
 
   {
-    name: "Regal Bridal Set",
-    image: "/images/collections/bridal/set.jpg",
-    metal: "22K Hallmarked Gold",
-    stone: "Uncut Diamonds",
-    description:
-      "Complete bridal jewellery set with timeless elegance."
-  },
+  name: "Regal Bridal Set",
+  image: "/images/collections/bridal/regal.jpg",
+  diamond: "Uncut Diamonds",
+  metal: "22K Hallmarked Gold",
+  weight: "960 g",
+},
 
   {
-    name: "Luxury South Indian Temple Jewellery",
-    image: "/images/collections/bridal/south.jpg",
-    metal: "22K Hallmarked Gold",
-    stone: "Ruby & Diamonds",
-    description:
-      "Statement bridal earrings crafted for grand celebrations."
-  },
+  name: "Luxury South Indian Temple Jewellery",
+  image: "/images/collections/bridal/south.jpg",
+  diamond: "Ruby & Emerald",
+  metal: "22K Antique Gold",
+  weight: "780 g",
+},
 
   {
-    name: "Emerald Royal Choker",
-    image: "/images/collections/bridal/choker.jpg",
-    metal: "22K Hallmarked Gold",
-    stone: "Emerald & Diamonds",
-    description:
-      "Royal emerald choker with handcrafted detailing."
-  },
+  name: "Emerald Royal Choker",
+  image: "/images/collections/bridal/emerald.jpg",
+  diamond: "Colombian Emerald & Diamonds",
+  metal: "22K Hallmarked Gold",
+  weight: "410 g",
+},
+
+ 
 
   {
-    name: "Heritage Kundan Necklace",
-    image: "/images/collections/bridal/kundan.jpg",
-    metal: "22K Hallmarked Gold",
-    stone: "Kundan Stones",
-    description:
-      "Traditional kundan masterpiece inspired by royal weddings."
-  },
+  name: "Pear Diamond Bridal Set",
+  image: "/images/collections/bridal/diamond-pear.jpg",
+  diamond: "Pear Cut Diamonds",
+  metal: "18K White Gold",
+  weight: "18.40 ct",
+},
+{
+  name: "Lakshmi Temple Haram",
+  image: "/images/collections/bridal/laxmi.jpg",
+  diamond: "Ruby & Emerald",
+  metal: "22K Antique Gold",
+  weight: "890 g",
+},
+{
+  name: "Grand Kasu Mala",
+  image: "/images/collections/bridal/grand.jpg",
+  diamond: "Traditional Gold Coins",
+  metal: "22K Hallmarked Gold",
+  weight: "570 g",
+},
 
-  {
-    name: "Pear Diamond Bridal Set",
-    image: "/images/collections/bridal/pear.jpg",
-    metal: "18K White Gold",
-    stone: "Pear Shape Diamonds",
-    description:
-      "Luxury bridal jewellery featuring certified pear-cut diamonds."
-  }
+{
+  name: "Antique Bridal Choker",
+  image: "/images/collections/bridal/chooker.jpg",
+  diamond: "Kemp Stones",
+  metal: "22K Antique Gold",
+  weight: "340 g",
+},
+
+{
+  name: "Royal Vaddanam",
+  image: "/images/collections/bridal/vaddanam.jpg",
+  diamond: "Ruby & Emerald",
+  metal: "22K Hallmarked Gold",
+  weight: "690 g",
+},
+
+{
+  name: "Temple Jhumkas",
+  image: "/images/collections/bridal/jhumkaa.jpg",
+  diamond: "Pearls & Ruby",
+  metal: "22K Hallmarked Gold",
+  weight: "145 g",
+},
+
+{
+  name: "Heritage Mango Mala",
+  image: "/images/collections/bridal/mongo.jpg",
+  diamond: "Emerald Accents",
+  metal: "22K Yellow Gold",
+  weight: "520 g",
+},
+
+ {
+  name: "Navaratna Bridal Necklace",
+  image: "/images/collections/bridal/navratna.jpg",
+  diamond: "Navaratna Gemstones",
+  metal: "22K Hallmarked Gold",
+  weight: "610 g",
+},
+
+{
+  name: "Peacock Temple Necklace",
+  image: "/images/collections/bridal/peacock.jpg",
+  diamond: "Ruby & Emerald",
+  metal: "22K Antique Gold",
+  weight: "730 g",
+},
+
+{
+  name: "Heritage Bridal Bangles",
+  image: "/images/collections/bridal/pretty_bangles.jpg",
+  diamond: "Ruby Detailing",
+  metal: "22K Hallmarked Gold",
+  weight: "118 g",
+},
+
+{
+  name: "Royal Chandbali Earrings",
+  image: "/images/collections/bridal/chandbali.jpg",
+  diamond: "Rose Cut Diamonds",
+  metal: "22K Hallmarked Gold",
+  weight: "165 g",
+}
+
+
 ]
 
 },
@@ -119,7 +188,7 @@ diamond: {
   subtitle:
     "Exceptional diamonds with timeless brilliance.",
 
-  hero: "/images/collections/diamond/hero.jpg",
+  hero: "/images/collections/diamond/heroo.jpg",
 
   details: [
     "18K White Gold",
@@ -128,6 +197,65 @@ diamond: {
   ],
 
   products: [
+    {
+  name: "Temple Diamond Haram",
+  image: "/images/collections/diamond/temple-haram.jpg",
+  metal: "18K Yellow Gold",
+  stone: "Round Brilliant Diamonds",
+  description:
+    "A majestic South Indian haram adorned with brilliant diamonds and traditional temple artistry."
+},
+
+{
+  name: "Royal Diamond Vanki",
+  image: "/images/collections/diamond/vanki.jpg",
+  metal: "18K Yellow Gold",
+  stone: "Marquise Cut Diamonds",
+  description:
+    "A luxurious armlet inspired by traditional South Indian bridal heritage, embellished with sparkling diamonds."
+},
+
+{
+  name: "Lakshmi Diamond Pendant",
+  image: "/images/collections/diamond/lakshmi-pendant.jpg",
+  metal: "18K Yellow Gold",
+  stone: "Princess Cut Diamonds",
+  description:
+    "An elegant Lakshmi-inspired pendant blending divine symbolism with contemporary diamond brilliance."
+},
+
+{
+  name: "Diamond Peacock Ring",
+  image: "/images/collections/diamond/peacock-ring.jpg",
+  metal: "18K Rose Gold",
+  stone: "Round Brilliant Diamonds",
+  description:
+    "A statement ring inspired by graceful peacock motifs, handcrafted with exceptional diamond detailing."
+},
+
+{
+  name: "South Indian Diamond Maang Tikka",
+  image: "/images/collections/diamond/maang-tikka.jpg",
+  metal: "18K white Gold",
+  stone: "Pear Cut Diamonds",
+  description:
+    "A timeless bridal maang tikka designed with radiant diamonds to celebrate South Indian wedding traditions."
+},
+
+{
+  name: "Heritage Diamond Nose Ring",
+  image: "/images/collections/diamond/nose-ring.jpg",
+  metal: "18K Yellow Gold",
+  stone: "Round Brilliant Diamond",
+  description:
+    "A delicate diamond nose ring inspired by heritage craftsmanship and timeless bridal elegance."
+},
+
+
+
+
+
+
     {
       name: "Celestial Grace Necklace",
       image: "/images/collections/diamond/necklace.jpg",
@@ -200,6 +328,39 @@ everyday: {
   ],
 
   products: [
+  
+  {
+  name: "Delicate Anklet",
+  image: "/images/collections/everyday/anklet.jpg",
+  metal: "18K Yellow Gold",
+  stone: "Tiny Diamond Accent",
+  description:
+    "A refined anklet that adds subtle luxury and grace to every step."
+},
+
+{
+  name: "Lakshmi Coin Pendant",
+  image: "/images/collections/everyday/coin-pendant.jpg",
+  metal: "22K Hallmarked Gold",
+  stone: "Traditional Gold Finish",
+  description:
+    "A symbolic Lakshmi coin pendant crafted for everyday blessings and prosperity."
+},
+
+{
+  name: "Everyday Mangalsutra",
+  image: "/images/collections/everyday/mangalsutra.jpg",
+  metal: "18K Yellow Gold",
+  stone: "Black Beads & Diamond",
+  description:
+    "A contemporary mangalsutra designed for modern women while honoring tradition."
+},
+
+
+
+
+
+
     {
       name: "Classic Diamond Pendant",
       image: "/images/collections/everyday/pendant.jpg",
@@ -274,6 +435,14 @@ statement: {
 
   products: [
     {
+   
+
+
+
+
+
+
+
       id: "statement-1",
       name: "Imperial Emerald Necklace",
       image: "/images/collections/statement/emerald.jpg",
@@ -325,7 +494,33 @@ statement: {
       metal: "18K White Gold",
       stone: "Round Brilliant Diamonds",
       description: "Luxury bracelet handcrafted with brilliant-cut diamonds."
-    }
+    },
+
+    {
+  name: "Temple Ruby Cuff",
+  image: "/images/collections/statement/ruby-cuff.jpg",
+  metal: "22K Hallmarked Gold",
+  stone: "Ruby & Polki",
+  description:
+    "A bold cuff bracelet inspired by South Indian temple architecture."
+},
+
+{
+  name: "Heritage Maang Tikka",
+  image: "/images/collections/statement/maangtikka.jpg",
+  metal: "22K Hallmarked Gold",
+  stone: "Polki Diamonds & Pearls",
+  description:
+    "An ornate maang tikka designed to complete regal South Indian festive looks."
+},
+{
+  name: "Temple Guttapusalu Haram",
+  image: "/images/collections/statement/guttapusalu.jpg",
+  metal: "22K Hallmarked Gold",
+  stone: "Pearls & Ruby",
+  description:
+    "An iconic Guttapusalu haram adorned with cascading pearls and temple motifs."
+}
   ]
 },
 
