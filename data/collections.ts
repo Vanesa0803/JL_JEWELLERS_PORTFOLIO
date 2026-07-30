@@ -67,7 +67,7 @@ products: [
   {
   name: "Regal Bridal Set",
   image: "/images/collections/bridal/regal.jpg",
-  diamond: "Uncut Diamonds",
+stone: "Uncut Diamonds",
   metal: "22K Hallmarked Gold",
   weight: "960 g",
 },
@@ -75,7 +75,7 @@ products: [
   {
   name: "Luxury South Indian Temple Jewellery",
   image: "/images/collections/bridal/south.jpg",
-  diamond: "Ruby & Emerald",
+  stone: "Ruby & Emerald",
   metal: "22K Antique Gold",
   weight: "780 g",
 },
@@ -83,7 +83,7 @@ products: [
   {
   name: "Emerald Royal Choker",
   image: "/images/collections/bridal/emerald.jpg",
-  diamond: "Colombian Emerald & Diamonds",
+  stone: "Colombian Emerald & Diamonds",
   metal: "22K Hallmarked Gold",
   weight: "410 g",
 },
@@ -93,21 +93,21 @@ products: [
   {
   name: "Pear Diamond Bridal Set",
   image: "/images/collections/bridal/diamond-pear.jpg",
-  diamond: "Pear Cut Diamonds",
+  stone: "Pear Cut Diamonds",
   metal: "18K White Gold",
   weight: "18.40 ct",
 },
 {
   name: "Lakshmi Temple Haram",
   image: "/images/collections/bridal/laxmi.jpg",
-  diamond: "Ruby & Emerald",
+  stone: "Ruby & Emerald",
   metal: "22K Antique Gold",
   weight: "890 g",
 },
 {
   name: "Grand Kasu Mala",
   image: "/images/collections/bridal/grand.jpg",
-  diamond: "Traditional Gold Coins",
+  stone: "Traditional Gold Coins",
   metal: "22K Hallmarked Gold",
   weight: "570 g",
 },
@@ -115,7 +115,7 @@ products: [
 {
   name: "Antique Bridal Choker",
   image: "/images/collections/bridal/chooker.jpg",
-  diamond: "Kemp Stones",
+  stone: "Kemp Stones",
   metal: "22K Antique Gold",
   weight: "340 g",
 },
@@ -123,7 +123,7 @@ products: [
 {
   name: "Royal Vaddanam",
   image: "/images/collections/bridal/vaddanam.jpg",
-  diamond: "Ruby & Emerald",
+  stone: "Ruby & Emerald",
   metal: "22K Hallmarked Gold",
   weight: "690 g",
 },
@@ -131,7 +131,7 @@ products: [
 {
   name: "Temple Jhumkas",
   image: "/images/collections/bridal/jhumkaa.jpg",
-  diamond: "Pearls & Ruby",
+  stone: "Pearls & Ruby",
   metal: "22K Hallmarked Gold",
   weight: "145 g",
 },
@@ -139,7 +139,7 @@ products: [
 {
   name: "Heritage Mango Mala",
   image: "/images/collections/bridal/mongo.jpg",
-  diamond: "Emerald Accents",
+  stone: "Emerald Accents",
   metal: "22K Yellow Gold",
   weight: "520 g",
 },
@@ -147,7 +147,7 @@ products: [
  {
   name: "Navaratna Bridal Necklace",
   image: "/images/collections/bridal/navratna.jpg",
-  diamond: "Navaratna Gemstones",
+  stone: "Navaratna Gemstones",
   metal: "22K Hallmarked Gold",
   weight: "610 g",
 },
@@ -155,7 +155,7 @@ products: [
 {
   name: "Peacock Temple Necklace",
   image: "/images/collections/bridal/peacock.jpg",
-  diamond: "Ruby & Emerald",
+  stone: "Ruby & Emerald",
   metal: "22K Antique Gold",
   weight: "730 g",
 },
@@ -163,7 +163,7 @@ products: [
 {
   name: "Heritage Bridal Bangles",
   image: "/images/collections/bridal/pretty_bangles.jpg",
-  diamond: "Ruby Detailing",
+  stone: "Ruby Detailing",
   metal: "22K Hallmarked Gold",
   weight: "118 g",
 },
@@ -171,7 +171,7 @@ products: [
 {
   name: "Royal Chandbali Earrings",
   image: "/images/collections/bridal/chandbali.jpg",
-  diamond: "Rose Cut Diamonds",
+  stone: "Rose Cut Diamonds",
   metal: "22K Hallmarked Gold",
   weight: "165 g",
 }
