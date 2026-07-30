@@ -47,10 +47,10 @@ export default function Hero() {
           </p>
 
           <div className="mt-12">
-            <Button href="#">
-              Explore Collections →
-            </Button>
-          </div>
+  <Button href="/#collections">
+    Explore Collections →
+  </Button>
+</div>
 
         </div>
 
