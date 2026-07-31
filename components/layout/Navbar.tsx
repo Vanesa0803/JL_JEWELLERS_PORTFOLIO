@@ -20,7 +20,7 @@ const links = [
     href: "/#CraftsmanshipSection",
   },
   {
-    name: "Why JL",
+    name: "Why Chepuri's JL",
     href: "/#WhyChooseSection",
   },
 ];
@@ -71,7 +71,7 @@ export default function Navbar() {
           <Link href="/" className="text-white">
             <div className="flex flex-col leading-none">
               <span className="text-xl font-light tracking-[0.45em]">
-                JL
+                Chepuri's JL
               </span>
 
               <span className="mt-1 text-[10px] uppercase tracking-[0.6em] opacity-80">

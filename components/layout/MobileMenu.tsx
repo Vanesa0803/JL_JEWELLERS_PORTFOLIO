@@ -43,7 +43,7 @@ export default function MobileMenu({
       <div className="flex h-24 items-center justify-between px-6">
         <div className="flex flex-col text-white leading-none">
           <span className="text-xl tracking-[0.45em] font-light">
-            JL
+            Chepuri's JL
           </span>
 
           <span className="mt-1 text-[10px] uppercase tracking-[0.55em] opacity-70">
@@ -101,15 +101,7 @@ export default function MobileMenu({
           </motion.div>
         ))}
 
-        <Link
-          href="/collections"
-          onClick={onClose}
-          className="mt-8 flex items-center gap-3 rounded-full border border-[#C9A45C] px-8 py-4 text-xs uppercase tracking-[0.35em] text-white transition-all duration-300 hover:bg-[#C9A45C] hover:text-black"
-        >
-          Discover
-
-          <ArrowRight size={16} />
-        </Link>
+       
       </motion.div>
 
       {/* Footer */}

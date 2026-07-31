@@ -10,14 +10,32 @@ export default function DiamondHero() {
 
       {/* Background Image */}
 
-      <Image
-        src="/images/collections/diamond/hero.jpg"
-        alt="diamond"
-        fill
-        sizes="(max-width: 768px) 100vw, 50vw"
-        priority
-        className="object-cover"
-      />
+      <motion.div
+  initial={{ scale: 1.1 }}
+  animate={{ scale: 1 }}
+  transition={{ duration: 2 }}
+  className="absolute inset-0"
+>
+  {/* Desktop */}
+  <Image
+    src="/images/collections/diamond/diamond-desktop.jpg"
+    alt="Diamond Collection"
+    fill
+    priority
+    sizes="100vw"
+    className="hidden md:block object-cover"
+  />
+
+  {/* Mobile */}
+  <Image
+    src="/images/collections/diamond/diamond-mobile.jpg"
+    alt="Diamond Collection"
+    fill
+    priority
+    sizes="100vw"
+    className="block md:hidden object-cover object-center"
+  />
+</motion.div>
 
       {/* Dark Overlay */}
 

@@ -7,17 +7,34 @@ import Link from "next/link";
 export default function BridalHero() {
   return (
     <section className="relative h-screen overflow-hidden">
+  {/* Background Image */}
 
-      {/* Background Image */}
+      <motion.div
+  initial={{ scale: 1.1 }}
+  animate={{ scale: 1 }}
+  transition={{ duration: 2 }}
+  className="absolute inset-0"
+>
+  {/* Desktop */}
+  <Image
+    src="/images/collections/bridal/bridal-desktop.jpg"
+    alt="Bridal Collection"
+    fill
+    priority
+    sizes="100vw"
+    className="hidden md:block object-cover"
+  />
 
-      <Image
-        src="/images/collections/bridal/bridal-intro.jpg"
-        alt="Bridal Collection"
-        fill
-        sizes="(max-width: 768px) 100vw, 50vw"
-        priority
-        className="object-cover"
-      />
+  {/* Mobile */}
+  <Image
+    src="/images/collections/bridal/bridal-mobile.jpg"
+    alt="Bridal Collection"
+    fill
+    priority
+    sizes="100vw"
+    className="block md:hidden object-cover object-center"
+  />
+</motion.div>
 
       {/* Dark Overlay */}
 

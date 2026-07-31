@@ -28,7 +28,7 @@ export default function BridalIntro() {
           </h2>
 
           <p className="mt-8 text-lg leading-9 text-[#6F655E]">
-            Every bridal masterpiece by JL Jewellers is designed to celebrate
+            Every bridal masterpiece by Chepuri's JL Jewellers is designed to celebrate
             love, tradition and timeless elegance. From carefully selected
             diamonds to handcrafted settings, each creation reflects
             generations of craftsmanship and meticulous attention to detail.
@@ -52,7 +52,7 @@ export default function BridalIntro() {
         >
           <div className="relative aspect-[4/5] overflow-hidden rounded-[32px] shadow-2xl">
             <Image
-              src="/images/collections/bridal/bridal-intro.jpg"
+              src="/images/collections/bridal.jpg"
               alt="Bridal Jewellery"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

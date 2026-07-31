@@ -19,7 +19,7 @@ export default function CraftsmanshipSection() {
           </h2>
 
           <p className="mt-8 text-lg leading-8 text-white/70">
-            Every JL Jewellers creation follows a meticulous journey,
+            Every Chepuri's JL Jewellers creation follows a meticulous journey,
             combining artistry, precision and generations of expertise.
           </p>
         </div>

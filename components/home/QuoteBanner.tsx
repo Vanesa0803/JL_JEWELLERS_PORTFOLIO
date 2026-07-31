@@ -47,7 +47,7 @@ export default function QuoteBanner() {
           <div className="mt-10 w-20 h-px bg-[#C8A96A] mx-auto" />
 
           <p className="mt-8 text-white/70 tracking-[4px] uppercase text-sm">
-            JL Jewellers
+            Chepuri's JL Jewellers
           </p>
 
         </motion.div>

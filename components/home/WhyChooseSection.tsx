@@ -11,7 +11,7 @@ export default function WhyChooseSection() {
         <div className="mx-auto mb-20 max-w-3xl text-center">
 
           <p className="mb-4 uppercase tracking-[0.45em] text-xs text-[#B68A45]">
-            Why Choose JL Jewellers
+            Why Choose Chepuri's JL Jewellers
           </p>
 
           <h2 className="font-heading text-5xl md:text-6xl text-[#231B15]">

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="text-center">
 
           <h2 className="font-heading text-4xl tracking-wide">
-            JL Jewellers
+            Chepuri's JL Jewellers
           </h2>
 
           <p className="mx-auto mt-6 max-w-xl leading-8 text-white/60">
@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="my-16 h-px bg-white/10" />
 
         <p className="text-center text-sm tracking-wide text-white/40">
-          © 2026 JL Jewellers. Crafted with elegance.
+          © 2026 Chepuri's JL Jewellers. Crafted with elegance.
         </p>
 
       </div>

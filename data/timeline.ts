@@ -3,7 +3,7 @@ export const timeline = [
     year: "1998",
     title: "The Beginning",
     description:
-      "JL Jewellers was founded with a passion for timeless craftsmanship and trust.",
+      "Chepuri's JL Jewellers was founded with a passion for timeless craftsmanship and trust.",
   },
   {
     year: "2005",

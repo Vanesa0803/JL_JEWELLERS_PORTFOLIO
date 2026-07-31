@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "JL Jewellers",
+  title: "Chepuri's JL Jewellers",
   description: "Luxury Jewellery Portfolio",
 };
 

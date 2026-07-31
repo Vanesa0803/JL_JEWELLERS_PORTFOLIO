@@ -31,7 +31,7 @@ crafted with precision.
           <p className="mt-8 text-lg leading-9 text-[#6F655E]">
             Every diamond in our collection is carefully selected for its brilliance,
 clarity and fire. Crafted in luxurious gold settings, each piece reflects
-JL Jewellers' commitment to exceptional craftsmanship and timeless elegance.
+Chepuri's JL Jewellers' commitment to exceptional craftsmanship and timeless elegance.
           </p>
 
           <p className="mt-6 text-lg leading-9 text-[#6F655E]">
@@ -51,7 +51,7 @@ Diamond Collection embodies sophistication, beauty and enduring value.
         >
           <div className="relative aspect-[4/5] overflow-hidden rounded-[32px] shadow-2xl">
             <Image
-              src="/images/collections/diamond/hero.jpg"
+              src="/images/collections/diamond/diamond-mobile.jpg"
               alt="diamond"
               fill
               className="object-cover"
